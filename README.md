@@ -10,13 +10,13 @@ watch:
     volumes:
         - ./:/app
     working_dir: /app
-    command: watch
+    command: gulp watch
 
 build:
     image: webfatorial/gulp
     volumes:
         - ./:/app
     working_dir: /app
-    command: build
+    command: gulp build
 
 ```
