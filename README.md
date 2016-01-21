@@ -2,6 +2,11 @@
 
 A Gulp Docker Images. This container execute a gulp [task] in a working folder
 
+Gem packages included
+
+* SASS
+* Compass
+
 ## Docker Compose example
 
 ```
