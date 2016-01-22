@@ -18,3 +18,5 @@ RUN gem install --no-rdoc --no-ri sass
 RUN gem install --no-rdoc --no-ri compass
 RUN gem install --no-rdoc --no-ri sass-css-importer --pre
 RUN gem install --no-rdoc --no-ri breakpoint
+
+EXPOSE 35729
