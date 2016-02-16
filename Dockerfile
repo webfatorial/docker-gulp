@@ -14,9 +14,9 @@ RUN apt-get -y install ruby-ffi
 RUN apt-get -y install zlib1g-dev
 
 RUN gem update --system
-RUN gem install --no-rdoc --no-ri sass -v 3.2.19
-RUN gem install --no-rdoc --no-ri compass -v 0.12.7
+RUN gem install --no-rdoc --no-ri sass 
+RUN gem install --no-rdoc --no-ri compass
 RUN gem install --no-rdoc --no-ri sass-css-importer --pre
-RUN gem install --no-rdoc --no-ri breakpoint -v 2.0.5
+RUN gem install --no-rdoc --no-ri breakpoint
 
 EXPOSE 35729
